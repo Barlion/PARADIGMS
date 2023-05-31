@@ -14,4 +14,3 @@ const result = [];
  /*This displays elements of the result array*/
  console.log(result);
 
- //error example
