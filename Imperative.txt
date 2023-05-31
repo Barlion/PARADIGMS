@@ -1,0 +1,17 @@
+/*This declares an array of 10 elements*/
+const nums = [1,2,3,4,5,6,7,8,9,10];
+/*This declares  an array to be used to display the result*/
+const result = [];
+ /*This initiates a loop that goes through all the elements of the array nums*/ 
+ for (let i = 0; i< nums.length; i++){
+    /*This if statement checks if the nums elements are greater than 5*/
+    if(nums[i]>5){
+        /*This transfers nums values that are greater than 5 to the result array*/
+        result.push(nums[i]);
+    }
+
+ }
+ /*This displays elements of the result array*/
+ console.log(result);
+
+ //error example
